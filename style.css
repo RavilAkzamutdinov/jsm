@@ -1,0 +1,190 @@
+/* Шрифт */
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('../TTLakes-Italic.eot');
+    src: local('TT Lakes Italic'), local('TTLakes-Italic'),
+        url('../TTLakes-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../TTLakes-Italic.woff') format('woff'),
+        url('../TTLakes-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('../TTLakes-ExtraBoldItalic.eot');
+    src: local('TT Lakes ExtraBold Italic'), local('TTLakes-ExtraBoldItalic'),
+        url('../TTLakes-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../TTLakes-ExtraBoldItalic.woff') format('woff'),
+        url('../TTLakes-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('../TTLakes-Bold.eot');
+    src: local('TT Lakes Bold'), local('TTLakes-Bold'),
+        url('../TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../TTLakes-Bold.woff') format('woff'),
+        url('../TTLakes-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('../TTLakes-Medium.eot');
+    src: local('TT Lakes Medium'), local('TTLakes-Medium'),
+        url('../TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../TTLakes-Medium.woff') format('woff'),
+        url('../TTLakes-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('../TTLakes-BoldItalic.eot');
+    src: local('TT Lakes Bold Italic'), local('TTLakes-BoldItalic'),
+        url('../TTLakes-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../TTLakes-BoldItalic.woff') format('woff'),
+        url('../TTLakes-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('../TTLakes-BlackItalic.eot');
+    src: local('TT Lakes Black Italic'), local('TTLakes-BlackItalic'),
+        url('../TTLakes-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../TTLakes-BlackItalic.woff') format('woff'),
+        url('../TTLakes-BlackItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('../TTLakes-ExtraBold.eot');
+    src: local('TT Lakes ExtraBold'), local('TTLakes-ExtraBold'),
+        url('../TTLakes-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../TTLakes-ExtraBold.woff') format('woff'),
+        url('../TTLakes-ExtraBold.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+margin: 0;
+padding: 0;
+font-size: 100%;
+background-color: #F8F8F8;
+}
+
+/* Header-site */
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 88px;
+    border-bottom: 1px solid #D9FFF5;
+    
+}
+
+.container {
+    max-width: 320px;
+    display: inline;
+    padding: 0;
+}
+
+@media(min-width:320px) {
+    .container {
+        min-width: 320px;
+    }
+}
+
+@media(min-width:768px) {
+    .container {
+        min-width: 768px;
+    }
+}
+
+@media(min-width:1120px) {
+    .container {
+        min-width: 1120px;
+    }
+}
+
+nav > a {
+padding: 8px;
+box-sizing: border-box;
+border-radius: 6px;
+color: #7E7E82;
+margin-left: 16px;
+font-size: 16px;
+line-height: 24px;
+overflow: visible;
+width: 248px;
+height: 40px;
+}
+
+nav a:hover {
+box-shadow: inset 0 0 0 2px #B8FFEC;
+}
+
+
+.page-title {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    text-align: left;
+}
+
+h1 {
+    margin-left: 12px;
+    font-style: bold;
+}
+
+.site-nav {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    align-items: center;
+    padding: 0%;
+}
+
+title {
+    background-color: #F8F8F8;
+}
+
+a {
+    white-space: nowrap;    
+    color: #000;
+    text-decoration: none;
+    cursor: default;
+}
+
+.main-info {
+    padding: 16px;
+    
+}
+
+.more {
+    margin-left: 16px;
+}
+
+.image {
+    width: 100%;
+}
